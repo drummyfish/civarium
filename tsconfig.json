@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "amd",
+        "outDir": "dist/",
+        "sourceMap": true,
+        "target": "es6",
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "filesGlob": [
+      "node_modules/@types/**/*.d.ts",
+      "src/*.ts",
+      "src/**/*.ts",
+      "test/spec/**/*Spec.ts",
+      "test/spec/**/*Helper.ts"
+    ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "type": "spritesheet",
+    "name": "woman-walking-north",
+    "path": "./assets/Woman Walking North.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "woman-walking-east",
+    "path": "./assets/Woman Walking East.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "woman-walking-south",
+    "path": "./assets/Woman Walking South.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "woman-walking-west",
+    "path": "./assets/Woman Walking West.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "tiles",
+    "path": "./assets/Tiles.png",
+    "cell_width": 78,
+    "cell_height": 40
+  },
+  {
+    "type": "spritesheet",
+    "name": "man-walking-north",
+    "path": "./assets/Man Walking North.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "man-walking-east",
+    "path": "./assets/Man Walking East.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "man-walking-south",
+    "path": "./assets/Man Walking South.png",
+    "cell_width": 20,
+    "cell_height": 50
+  },
+  {
+    "type": "spritesheet",
+    "name": "man-walking-west",
+    "path": "./assets/Man Walking West.png",
+    "cell_width": 20,
+    "cell_height": 50
+  }
+]

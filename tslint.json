@@ -1,0 +1,26 @@
+{
+  "extends": "tslint:recommended",
+ "rulesDirectory": ["node_modules/vrsource-tslint-rules/rules"],
+  "rules": {
+    "quotemark": [true, "single"],
+    "ordered-imports": [false],
+    "member-access": [false],
+    "no-bitwise": [false],
+    "no-empty": false,
+    "cyclomatic-complexity": [true, 3],
+    "variable-name": [false],
+    "whitespace": [true, "check-decl", "check-operator", "check-separator", "check-type"],
+    "object-literal-sort-keys": false,
+    "max-line-length": false,
+    "ext-variable-name": [
+      true,
+      ["class", "pascal"],
+      ["interface", "pascal", {"regex": "^I.*$"}],
+      ["property", "private", "snake", "require-leading-underscore"],
+      ["property", "static", "upper"],
+      ["method", "camel"],
+      ["function", "camel"],
+      ["default", "snake"]
+    ]
+  }
+}
